@@ -47,8 +47,8 @@ class ViewController: UIViewController {
                 var cards: String! = nil
                 do {
                     cards = try decoder.decode(String.self,from: data)
-                } catch {
-                    print("could not serialize \(data)")
+                } catch let error {
+                    print("Error:\( error)")
                     return
                 }
                 DispatchQueue.main.async {
