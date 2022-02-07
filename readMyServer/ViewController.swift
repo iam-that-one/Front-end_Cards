@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         lbl.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         lbl.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         lbl.widthAnchor.constraint(equalToConstant: 300).isActive = true
-        lbl.heightAnchor.constraint(equalToConstant: 50).isActive = true
+        lbl.heightAnchor.constraint(equalToConstant: 150).isActive = true
         
         btn.topAnchor.constraint(equalTo: lbl.bottomAnchor,constant: 20).isActive = true
         btn.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
